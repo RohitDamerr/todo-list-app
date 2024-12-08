@@ -1,0 +1,95 @@
+/* Basic page setup */
+body {
+  background-color: #003366;
+  /* Dark blue background */
+  color: white;
+  /* White text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container for the to-do list */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #004080;
+  /* Slightly lighter blue for the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header style */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Input box and button */
+input {
+  padding: 10px;
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #0055cc;
+  /* Light blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007acc;
+  /* Darker blue on hover */
+}
+
+/* Task list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #0066cc;
+  /* List item color */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  font-size: 1.2em;
+}
+
+/* Strike-through for completed tasks */
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Delete button style */
+button.delete {
+  background-color: #cc0000;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+button.delete:hover {
+  background-color: #ff3333;
+}
